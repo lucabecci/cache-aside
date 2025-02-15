@@ -1,5 +1,5 @@
 use actix_web::{App, HttpServer};
-use crate::web::create_http::{create_event, get_event};
+use crate::web::event_http::{create_event, get_event};
 
 mod web;
 
